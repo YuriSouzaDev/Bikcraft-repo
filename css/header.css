@@ -76,3 +76,16 @@
     padding: 8px 12px;
   }
 }
+
+@media (max-width: 400px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-menu a {
+    font-size: 0.875rem;
+    padding: 8px 12px;
+  }
+}
