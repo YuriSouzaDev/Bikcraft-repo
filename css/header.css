@@ -77,9 +77,10 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .header-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }

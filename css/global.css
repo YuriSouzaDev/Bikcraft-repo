@@ -13,7 +13,7 @@
   --gray6-color: #9c9c9c;
   --gray7-color: #707070;
   --gray8-color: #595959;
-  --gray9-color: #595959;
+  --gray9-color: #404040;
   --gray10-color: #2e2e2e;
   --gray11-color: #121212;
   --black-color: #000000;
@@ -41,4 +41,8 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+h1 span {
+  color: var(--p1-color);
 }
