@@ -128,9 +128,26 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .escolha h1 {
     font-size: 1.5rem;
-    margin-bottom: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .escolha-content h2 {
+    font-size: 0.7rem;
+    margin-left: 0.7rem;
+  }
+
+  .escolha-content p {
+    margin-left: 0.7rem;
+    font-size: 0.5rem;
+  }
+
+  .escolha-content h2::before {
+    left: -0.7rem;
+    top: 0.2rem;
+    height: 0.3rem;
+    width: 0.5rem;
   }
 }
