@@ -43,6 +43,7 @@ img {
   display: block;
 }
 
-h1 span {
+h1 span,
+h2 span {
   color: var(--p1-color);
 }

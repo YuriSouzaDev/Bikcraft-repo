@@ -23,7 +23,7 @@
 .intro img {
   object-fit: cover;
   height: 100%;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .intro h1 {
@@ -86,6 +86,9 @@
   .intro a {
     font-size: 1rem;
     padding: 0.875rem;
+  }
+  .intro-container {
+    padding-bottom: 20px;
   }
 }
 

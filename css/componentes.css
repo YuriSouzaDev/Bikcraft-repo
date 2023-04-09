@@ -16,3 +16,27 @@
 .intro a:hover {
   background: linear-gradient(180deg, var(--p1-color) 0%, var(--p3-color) 100%);
 }
+
+.link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--p1-color);
+  margin-bottom: 1.125rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.link::after {
+  content: "";
+  background: currentColor;
+  height: 4px;
+  width: 100%;
+  display: block;
+}
+
+.link:hover {
+  color: var(--white-color);
+  transition: 0.2s;
+}
