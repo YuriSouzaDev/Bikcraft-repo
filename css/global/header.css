@@ -2,15 +2,13 @@
   background: var(--c12-color);
 }
 
-.header-container {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1200px;
   flex-wrap: wrap;
-  padding: 20px;
-  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
   gap: 20px;
 }
 

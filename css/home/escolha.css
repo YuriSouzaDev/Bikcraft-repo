@@ -7,14 +7,6 @@
   padding-bottom: 120px;
 }
 
-.escolha-titulo {
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  margin-bottom: 40px;
-}
-
 .escolha-titulo h1 {
   margin-bottom: 2rem;
 }
@@ -31,6 +23,10 @@
 .escolha-container li {
   flex: 1;
   min-width: 280px;
+}
+
+.escolha-container a {
+  display: block;
 }
 
 .escolha-content img {

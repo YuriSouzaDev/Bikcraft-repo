@@ -7,11 +7,7 @@
 .tecnologia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 20px;
-  margin: 0 auto;
-  max-width: 1200px;
-  box-sizing: border-box;
-  gap: 0 40px;
+  gap: 40px;
 }
 
 .tecnologia-foto img {
@@ -66,7 +62,8 @@
   }
 
   .tecnologia-container {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .tecnologia-foto {
