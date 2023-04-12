@@ -1,0 +1,60 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--p1-color);
+  overflow: hidden;
+}
+
+.depoimento img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.depoimento-content {
+  padding: 2.5rem 2.5rem 5rem 5rem;
+  align-self: end;
+}
+
+.depoimento-content p {
+  margin-bottom: 2rem;
+  max-width: 32ch;
+  position: relative;
+}
+
+.depoimento-content p::before,
+.depoimento-content p::after {
+  position: absolute;
+  font-size: 5rem;
+  color: var(--p2-color);
+}
+
+.depoimento-content p::before {
+  content: "“";
+  left: -50px;
+  top: -20px;
+}
+
+.depoimento-content p::after {
+  content: "”";
+}
+
+.depoimento-content p span span {
+  font: normal bold 50px/0 "Libre Baskerville", sans-serif;
+  top: 15px;
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .depoimento img {
+    max-height: 200px;
+  }
+  .depoimento-content {
+    padding: 2.5rem 1.25rem;
+    justify-self: center;
+  }
+}

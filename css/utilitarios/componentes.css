@@ -18,10 +18,34 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   margin-bottom: 1.125rem;
+  transition: 0.2s;
+  max-width: max-content;
 }
 
 .btn:hover {
   background: linear-gradient(180deg, var(--p1-color) 0%, var(--p3-color) 100%);
+}
+
+.secundario {
+  background: var(--c10-color);
+  color: var(--c02-color);
+}
+
+.secundario:hover {
+  background: linear-gradient(180deg, var(--c10-color) 0%, var(--c11-color));
+}
+@media (max-width: 800px) {
+  .btn {
+    font-size: 1rem;
+    padding: 0.875rem 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.875rem;
+  }
 }
 
 .link {
