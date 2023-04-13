@@ -75,6 +75,8 @@
   .font-1-s-36 {
     font-size: 2rem;
   }
+
+  .font-2-r-24-b,
   .font-2-m-18 {
     font-size: 1rem;
   }
@@ -92,7 +94,9 @@
     font-size: 1.125rem;
   }
 
-  .font-2-m-18 {
+  .font-2-r-24-b,
+  .font-2-m-18,
+  .font-2-r-18 {
     font-size: 0.875rem;
   }
 
@@ -108,7 +112,8 @@
   }
   .font-2-r-24,
   .font-2-r-24-b,
-  .font-1-s-24 {
-    font-size: 1rem;
+  .font-1-s-24,
+  .font-2-r-18 {
+    font-size: 0.7rem;
   }
 }

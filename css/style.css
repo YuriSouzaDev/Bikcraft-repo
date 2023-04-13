@@ -1,6 +1,7 @@
 /* Globais */
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/titulos.css";
 @import "./global/footer.css";
 
 /* Utilidades */
@@ -19,3 +20,7 @@
 
 /* Seguros */
 @import "./seguros/seguros.css";
+
+/* Termos e condições */
+
+@import "./termos/termos.css";
