@@ -59,11 +59,6 @@
   left: -21px;
 }
 
-.btn,
-.btn-b {
-  margin-bottom: 2rem;
-}
-
 @media (max-width: 800px) {
   .seguros-content {
     display: grid;

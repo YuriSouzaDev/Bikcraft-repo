@@ -7,11 +7,14 @@
   flex-direction: column;
   padding-top: 120px;
   padding-bottom: 120px;
-  gap: 60px;
 }
 
 .termos h1 {
   margin-bottom: 20px;
+}
+
+.termos p + h1 {
+  margin-top: 40px;
 }
 
 .termos p {
@@ -23,7 +26,6 @@
   .termos {
     padding-top: 80px;
     padding-bottom: 80px;
-    gap: 40px;
   }
 }
 
@@ -38,6 +40,8 @@
   .termos {
     padding-top: 60px;
     padding-bottom: 60px;
-    gap: 20px;
+  }
+  .termos p + h1 {
+    margin-top: 20px;
   }
 }

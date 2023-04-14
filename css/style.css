@@ -1,7 +1,6 @@
 /* Globais */
 @import "./global/global.css";
 @import "./global/header.css";
-@import "./global/titulos.css";
 @import "./global/footer.css";
 
 /* Utilidades */
@@ -17,6 +16,7 @@
 
 /* Bicicletas */
 @import "./bicicletas/escolha.css";
+@import "./bicicletas/bicicletas.css";
 
 /* Seguros */
 @import "./seguros/seguros.css";

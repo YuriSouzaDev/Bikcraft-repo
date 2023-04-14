@@ -94,9 +94,12 @@
     font-size: 1.125rem;
   }
 
-  .font-2-r-24-b,
-  .font-2-m-18,
   .font-2-r-18 {
+    font-size: 1rem;
+  }
+
+  .font-2-r-24-b,
+  .font-2-m-18 {
     font-size: 0.875rem;
   }
 
@@ -107,13 +110,13 @@
 
 @media (max-width: 400px) {
   .font-1-s-64,
-  .font-3-black {
+  .font-3-black,
+  .font-1-s-36 {
     font-size: 1.5rem;
   }
   .font-2-r-24,
   .font-2-r-24-b,
-  .font-1-s-24,
-  .font-2-r-18 {
+  .font-1-s-24 {
     font-size: 0.7rem;
   }
 }
