@@ -6,10 +6,17 @@
   padding-bottom: 120px;
 }
 
+#seguros .seguros {
+  padding-top: 0;
+}
+
+.seguros h1 {
+  margin-bottom: 80px;
+}
+
 .seguros-content {
   display: flex;
   gap: 2.5rem;
-  padding-top: 80px;
   align-items: center;
 }
 
@@ -19,6 +26,7 @@
   flex: 1;
   padding: 2rem 2rem 2rem 3.75rem;
   background: var(--c12-color);
+  border-radius: 4px;
 }
 
 .seguros-item h2 {
