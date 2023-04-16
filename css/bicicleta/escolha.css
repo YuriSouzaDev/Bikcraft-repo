@@ -20,6 +20,10 @@
   overflow-x: auto;
 }
 
+#bicicleta .escolha-container {
+  padding: 0px 0px 20px 0px;
+}
+
 .escolha-container li {
   flex: 1;
   min-width: 280px;

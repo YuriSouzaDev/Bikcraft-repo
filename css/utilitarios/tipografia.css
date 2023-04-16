@@ -25,6 +25,11 @@
 .font-1-m-18 {
   font: 500 1.125rem/1.33 "Poppins", sans-serif;
 }
+
+.font-1-m-12 {
+  font: 500 0.75rem/1.33 "Poppins", sans-serif;
+}
+
 .font-1-r-18 {
   font: 400 1.125rem/1.33 "Poppins", sans-serif;
 }
@@ -33,6 +38,9 @@
 }
 .font-2-s-18 {
   font: 600 1.125rem/1.33 "Roboto", sans-serif;
+}
+.font-2-s-16 {
+  font: 600 1rem/1.5 "Roboto", sans-serif;
 }
 .font-2-m-18 {
   font: 500 1.125rem/1.33 "Roboto", sans-serif;
@@ -46,6 +54,18 @@
 .font-2-r-16 {
   font: 400 1rem/1.5 "Roboto", sans-serif;
 }
+
+.font-2-r-14 {
+  font: 400 0.875rem/1.4 "Roboto", sans-serif;
+}
+
+.font-2-r-36-b {
+  /*1.5 letter spacing */
+  font: 400 2rem/1.5 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
 .font-2-r-24-b {
   /*1.5 letter spacing */
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
