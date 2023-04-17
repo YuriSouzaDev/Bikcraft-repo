@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Termos e condições | Bikcraft</title>
+  <title>Contato | Bikcraft</title>
   <meta name="description" content="Termos e condições">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
   <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
 </head>
 
-<body id="termos">
+<body id="contato">
   <header class="header-bg">
     <div class="header container">
       <a href="../index.html" class="logo"><img src="../img/logo.svg" alt="Bikcraft Logo"></a>
@@ -27,45 +27,59 @@
       </nav>
   </header>
 
-  <main>
-    <div class="titulo-bg">
+  <main class="titulo-bg">
+    <div>
       <div class="titulo container">
-        <p class="cor-05 font-2-r-24-b">termos de uso</p>
-        <h1 class="font-1-s-64">termos e condições<span class="cor-p1">.</span></h1>
+        <p class="cor-05 font-2-r-24-b">reposta em até 24h</p>
+        <h1 class="font-1-s-64">nosso contato<span class="cor-p1">.</span></h1>
       </div>
     </div>
 
-    <div class="termos-bg container">
-      <div class="termos font-2-r-18 cor-10">
-        <h1 class="font-1-s-24 cor-11">1. Política de Estorno</h1>
+    <div class="contato container">
+      <section class="contato-dados" aria-label="Endereço">
+        <h2 class="font-2-m-18 cor-00">Loja Online</h2>
+        <div class="contato-endereco font-2-r-18 cor-04">
+          <p>Rua Ali Perto, 35</p>
+          <p>Rio de Janeiro - RJ</li>
+          <p>Brasil - Terra - Via Láctea</li>
+        </div>
+        <address class="contato-meios font-2-r-18 cor-04">
+          <a href="mailto:contato@bikcraft.com">contato@bikcraft.com.br</a>
+          <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com.br</a>
+          <a href="tel:+5521999999999">21 9 9999-9999</a>
+        </address>
+        <div class="contato-redes">
+          <a href="www.instagram.com"><img src="../img/redes/instagram-grad.svg" alt="instagram page"></a>
+          <a href="https://www.facebook.com/"><img src="../img/redes/facebook-grad.svg" alt="facebook page"></a>
+          <a href="https://www.youtube.com"><img src="../img/redes/youtube-grad.svg" alt="youtube channel"></a>
+        </div>
+      </section>
+      <section aria-label="Formulário" class="contato-formulario font-1-m-18 cor-12">
+        <form class="form" action="./contato.html">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Seu Nome" name="nome" id="nome">
+          </div>
 
-        <p>1.1 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" placeholder="(21) 9 9999-9999" name="telefone" id="telefone">
+          </div>
 
-        <p>1.2 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
+          <div class="col-2">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="seuemail@email" name="email" id="email">
+          </div>
 
-        <p>1.3 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
-
-        <h1 class="font-1-s-24 cor-11">2. Conta de Usuário</h1>
-
-        <p>2.1 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
-
-        <p>2.2 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
-
-        <p>2.3 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
-
-        <h1 class="font-1-s-24 cor-11">3. Seguro Bikcraft</h1>
-
-        <p>3.1 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro..</p>
-
-        <p>3.2 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
-
-        <p>3.3 Aceitamos cartões de créditos nas bandeiras Visa, Mastercard, ELO e American Express. Para pagamentos à vista aceitamos PIX e Boleto através do PagSeguro.</p>
-
-      </div>
+          <div class="col-2">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" placeholder="O que você precisa?" name="email" id="email"></textarea>
+          </div>
+        </form>
+        <a class="btn col-2">Enviar Mensagem</a>
+      </section>
     </div>
   </main>
-
-  </div>
 
 
 

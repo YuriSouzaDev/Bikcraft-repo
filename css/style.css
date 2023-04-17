@@ -1,12 +1,14 @@
 /* Globais */
 @import "./global/global.css";
+@import "./utilitarios/tipografia.css";
+@import "./utilitarios/cores.css";
+
 @import "./global/header.css";
 @import "./global/footer.css";
 
 /* Utilidades */
 @import "./utilitarios/componentes.css";
-@import "./utilitarios/tipografia.css";
-@import "./utilitarios/cores.css";
+@import "./utilitarios/formulario.css";
 
 /* Home */
 @import "./home/introducao.css";
@@ -26,6 +28,10 @@
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+
+/* Contato */
+
+@import "./contato/contato.css";
 
 /* Termos e condições */
 
