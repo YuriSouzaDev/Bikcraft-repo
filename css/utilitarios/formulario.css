@@ -1,12 +1,12 @@
 .form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   gap: 20px;
 }
 
 .form label {
   display: block;
-  font: 600 1rem/1.5 "Poppins", sans-serif;
+  font: 500 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -16,7 +16,8 @@
 
 .form input[type="text"],
 .form input[type="email"],
-.form textarea {
+.form textarea,
+.form select {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--c01-color);
   border: 1px solid var(--c02-color);

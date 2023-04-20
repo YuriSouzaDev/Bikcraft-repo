@@ -28,11 +28,12 @@
 .font-1-m-18 {
   font: 500 1.125rem/1.33 "Poppins", sans-serif;
 }
-
+.font-1-m-16 {
+  font: 500 1rem/1 "Poppins", sans-serif;
+}
 .font-1-m-12 {
   font: 500 0.75rem/1.33 "Poppins", sans-serif;
 }
-
 .font-1-r-18 {
   font: 400 1.125rem/1.33 "Poppins", sans-serif;
 }
