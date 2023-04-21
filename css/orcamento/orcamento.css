@@ -34,7 +34,8 @@
 
 .orcamento-produto {
   border-radius: 5px 0 0 5px;
-  background: var(--c12-color);
+  background: var(--c12-color) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -154,7 +155,8 @@
 
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
-  background: var(--c00-color);
+  background: var(--c00-color) url("../../img/dec/botton-right.svg") no-repeat
+    bottom 20px right 20px;
 }
 
 .checkbox {
@@ -184,6 +186,7 @@
 
   .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--c12-color);
   }
 
   .orcamento-dados {
@@ -198,5 +201,6 @@
 
   .orcamento-dados {
     border-radius: 0 0 5px 5px;
+    background: var(--c00-color);
   }
 }

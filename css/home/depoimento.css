@@ -14,6 +14,8 @@
 .depoimento-content {
   padding: 2.5rem 2.5rem 5rem 5rem;
   align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
 }
 
 .depoimento-content p {
@@ -42,6 +44,12 @@
 .depoimento-content p span span {
   font: normal bold 50px/0 "Libre Baskerville", sans-serif;
   top: 15px;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {

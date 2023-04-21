@@ -1,5 +1,6 @@
 .tecnologia-bg {
-  background: var(--c11-color);
+  background: var(--c11-color) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 120px left 255px;
   color: var(--c00-color);
   box-shadow: inset 0 80px var(--c00-color), inset 0 -80px var(--c00-color);
 }

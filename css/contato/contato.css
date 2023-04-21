@@ -15,12 +15,14 @@
 }
 
 .contato-dados {
-  background: var(--c12-color);
+  background: var(--c12-color) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
   border-radius: 5px 0 0 5px;
 }
 
 .contato-formulario {
-  background: var(--c00-color);
+  background: var(--c00-color) url("../../img/dec/botton-right.svg") no-repeat
+    bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 
@@ -82,10 +84,12 @@
 
   .contato-dados {
     border-radius: 5px 5px 0 0;
+    background: var(--c12-color);
   }
 
   .contato-formulario {
     border-radius: 0 0 5px 5px;
+    background: var(--c00-color);
   }
 
   .contato-dados h2,

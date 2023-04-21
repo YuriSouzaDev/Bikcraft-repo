@@ -38,6 +38,11 @@
   gap: 0 2rem;
 }
 
+.footer a {
+  display: block;
+  max-width: max-content;
+}
+
 .footer a:hover {
   color: var(--c00-color);
 }
