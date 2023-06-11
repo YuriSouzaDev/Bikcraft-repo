@@ -1,14 +1,14 @@
 /* Globais */
 @import "./global/global.css";
-@import "./utilitarios/tipografia.css";
-@import "./utilitarios/cores.css";
-
 @import "./global/header.css";
 @import "./global/footer.css";
 
 /* Utilidades */
 @import "./utilitarios/componentes.css";
 @import "./utilitarios/formulario.css";
+@import "./utilitarios/tipografia.css";
+@import "./utilitarios/cores.css";
+@import "./utilitarios/animacao.css";
 
 /* Home */
 @import "./home/introducao.css";
